@@ -76,7 +76,7 @@ footer {
   list-style-type: none;
 }
 .product {
-  flex: 1 1 26rem;
+  flex: 0 1 26rem;
   width: 20rem;
   height: 25rem;
   overflow: hidden;
@@ -114,4 +114,15 @@ img:hover {
 
 li a {
   text-decoration: none;
+}
+
+.filter-component {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding-bottom: 1rem;
+}
+
+.filter-component div {
+  flex: 1;
 }
